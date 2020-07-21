@@ -34,7 +34,7 @@
     
 <!--foto profile-->
     <ImageView
-        android:id="@+id/Profile"
+        android:id="@+id/ivProfile"
         android:scaleType="centerCrop"
         android:layout_width="128dp"
         android:layout_height="128dp"
@@ -52,8 +52,8 @@
         android:text="Hanif Yogatama"
         android:textSize="20dp"
         android:textStyle="bold"
-        app:layout_constraintTop_toBottomOf="@id/Profile"
-        app:layout_constraintStart_toStartOf="@id/Profile"/>
+        app:layout_constraintTop_toBottomOf="@id/ivProfile"
+        app:layout_constraintStart_toStartOf="@id/ivProfile"/>
 
     <TextView
         android:id="@+id/tvJob"
